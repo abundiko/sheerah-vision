@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheerah Vision Admin | Messages</title>
+  <link rel="stylesheet" href="../assets/css/diko.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/diko.animate.css">
+  <link rel="stylesheet" href="../assets/css/diko.utils.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body">
+  <header class="dheader header t4" id="header">
+    <a href="index.php"><img src="../assets/img/logo.png" width="160"></a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none"><a href="index.php"><img src="../assets/img/logo.png"
+            width="160"></a><i id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1 fs-2" onclick="
+           DOM.remState('nav-container', 'open');
+            DOM.remState('body', 'doverh');
+            "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 ">
+        <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">Home</a>
+        <a href="about.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">About</a>
+        <a href="index.html#services" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Services</a>
+        <a href="gallery.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Gallery</a>
+        <a href="index.html#directors" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Directors</a>
+        <a href="index.html#contact" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Contact</a>
+        <a href="appointment.html" class="display-block mx-1 mb-2 mb-md-0 btn btn-primary">Make An Appointment</a>
+      </nav>
+    </div><i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1 fs-2" onclick="
+           DOM.addState('nav-container', 'open');
+            DOM.addState('body', 'doverh');
+            "></i>
+  </header>
+  <div class=" my-4"></div>
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <h4 class="dflex djcsb dalc"><b>Sheerah Admin Panel</b><a href="#" class="btn btn-danger btn-sm">logout</a></h4>
+        <div class="col-12 p-3">
+          <div class="border rounded p-2">
+            <div class="dflex djcsb dalc">
+              <h6 class="">Messages</h6>
+            </div>
+            <table class="w-100 dbor10 doverh">
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Email</td>
+                  <td>Subject</td>
+                  <td>Date</td>
+                  <td>Message</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Email</td>
+                  <td>Subject</td>
+                  <td>Date</td>
+                  <td>Message</td>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td>Email</td>
+                  <td>Subject</td>
+                  <td>Date</td>
+                  <td>Message</td>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td>Email</td>
+                  <td>Subject</td>
+                  <td>Date</td>
+                  <td>Message</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="../assets/js/diko.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</html>
